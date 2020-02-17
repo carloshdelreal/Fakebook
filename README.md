@@ -131,3 +131,52 @@ All the source code in the [The Odin Project](https://www.theodinproject.com/cou
 - [ ] Use the Active Storage to allow users to upload a photo to their profile.
 - [ ] Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
 - [x] Style it up nicely! We’ll dive into HTML/CSS in the next course.
+
+## Fakebook Features
+
+One of the main features of this web application is the login system, it was implemented using [devise](https://github.com/heartcombo/devise) and it allows the user to login with your username and password.
+
+<figure class="figure">
+    <img src="data/login_home.png">
+</figure>
+
+If you haven't registered yet so you can use `carlos@email.com` as username and `foobar` as password
+
+<figure class="figure">
+    <img src="data/login_userandpass.png">
+</figure>
+
+And you will be prompted to the home page, off course you can logout whenever you want
+
+<figure class="figure">
+    <img src="data/logout.png">
+</figure>
+
+In the application you can browse through your profile that shows your username and profile photo (you can update it!) and the posts that you have created.
+
+<figure class="figure">
+    <img src="data/profile.png">
+</figure>
+
+You can go to the friends page that shows all of your friends, your friend's requests and pending friends (the one's that are crazy to be your friends).
+
+
+<figure class="figure">
+    <img src="data/friends.png">
+</figure>
+
+<figure class="figure">
+    <img src="data/friendships.png">
+</figure>
+
+Then you can create a post and add it an image 
+
+<figure class="figure">
+    <img src="data/create_post.png">
+</figure>
+
+Last but not least you can comment and like your friend's posts
+
+<figure class="figure">
+    <img src="data/coment_and_like_posts.png">
+</figure>
